@@ -61,7 +61,6 @@ class TestWireVectorNames(unittest.TestCase):
             self.is_valid_str('clock')
         with self.assertRaises(pyrtl.PyrtlError):
             self.is_valid_str(24)
-        #testgitpush
 
     def test_valid_names(self):
         self.assertTrue(self.is_valid_str('xxx'))
